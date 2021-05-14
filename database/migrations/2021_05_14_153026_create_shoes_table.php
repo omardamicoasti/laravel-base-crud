@@ -15,10 +15,10 @@ class CreateShoesTable extends Migration
     {
         Schema::create('shoes', function (Blueprint $table) {
             $table->id();
-            $table->brand();
-            $table->model();
-            $table->color();
-            $table->size();
+            $table->string("brand");
+            $table->string("model");
+            $table->string("color");
+            $table->float("size");
         });
     }
 

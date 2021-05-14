@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Shoe;
+use app\Shoe;
 
 class MainController extends Controller
 {
@@ -14,6 +14,6 @@ class MainController extends Controller
     public function shoes()
     {
         $shoes = Shoe::all();
-        return view("shoes");
+        return view("shoes", $shoes);
     }
 }
