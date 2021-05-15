@@ -4,6 +4,6 @@
 
 @section("content")
 
-    <h1>HOMEPAGE</h1>
+    <img src="img\shoes_main.jpg" alt="home picture">
     
 @endsection

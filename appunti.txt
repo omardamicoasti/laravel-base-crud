@@ -1,0 +1,4 @@
+In modo un po' meccanico ma ho seguito una scaletta che mi sono preparato seguendo slide e lezioni.
+
+Dopo aver creato il model, il controller e migration, ho difficoltà a capire il collegamento che c'è tra logo e soprattutto a livello logico e di sintassi non so devo scrivere per fare in modo che "comunichino".
+

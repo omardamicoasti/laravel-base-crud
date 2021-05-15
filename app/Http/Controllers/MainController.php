@@ -14,6 +14,6 @@ class MainController extends Controller
     public function shoes()
     {
         $shoes = Shoe::all();
-        return view("shoes", $shoes);
+        return view("shoes", compact("shoes"));
     }
 }
